@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: green;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    margin-right: 10px;
+}
+
+.navbar ul li a{
+    color: white;
+}
+
+.post-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-item {
+border: 2px solid gray;
+height: 330px;
+width: 300px;
+margin: 10px;
+padding: 20px;
+}
+
+.post-item img {
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: green;
+    text-align: center;
+
+}
